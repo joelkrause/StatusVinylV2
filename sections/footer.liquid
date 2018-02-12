@@ -1,0 +1,62 @@
+<footer class="site-footer">
+<div class="wrapper">
+<div class="grid">
+  <div class="grid__item one-third">
+    <h2>Important Links</h2>
+  {%- assign footer_linklist = section.settings.footer_linklist -%}
+  {% if linklists[footer_linklist].links.size > 0 %}
+    <ul>
+      {% for link in linklists[footer_linklist].links %}
+        <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+  </div>
+	{% for block in section.blocks %}
+  	<div class="grid__item one-third">
+  		<h2>{{ block.settings.text_title }}</h2>
+  		<p>{{ block.settings.text_block }}</p>
+  	</div>
+  	{% endfor %}
+
+  <div class="grid__item full text-center copyright">
+    &copy; Copyright {{ 'now' | date: "%Y" }} AST Australia | <a href="https://joelkrause.co" target="_blank">Shopify Creative &amp; Development by Joel Krause</a><br /><br /><a href="https://shopify.com.au/?ref=jakdigital" target="_blank">Powered by {% include 'icon-shopify-logo' %}</a>
+  </div>
+</div>
+</div>
+</footer>
+
+{% schema %}
+  {
+    "name": "Footer",
+    "settings": [
+      {
+        "type": "link_list",
+        "id": "footer_linklist",
+        "label": "Footer Navigation",
+        "default": "footer"
+      }
+    ],
+	"blocks": [
+		{
+			"type": "select",
+			"name": "Footer Content Block",
+				"settings": [
+					{
+						"type": "text",
+						"label": "Title",
+						"id": "text_title",
+						"default": "Title"
+					},
+					{
+						"type": "textarea",
+						"label": "Content",
+						"id": "text_block",
+						"default": "Content"
+					}
+				]
+		}
+	]
+}
+
+{% endschema %}

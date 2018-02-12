@@ -1,0 +1,41 @@
+<div class="info-container">
+  
+</div>
+
+{% schema %}
+  {
+    "name": "Header Info",
+    "settings": [
+		{
+			"id": "HeaderInfo",
+			"type": "text",
+			"label": "Header Info",
+			"default": "Header Info"
+		}
+	],
+	"blocks": [
+		{
+			"type": "select",
+			"name": "Info",
+			"settings": [
+				{
+                  "id": "title",
+                  "type": "text",
+                  "label": "Header Info Title"
+				},
+				{
+                  "id": "icon",
+                  "type": "image_picker",
+                  "label": "Info Icon"
+				}
+			]	
+	}
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

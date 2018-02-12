@@ -1,0 +1,202 @@
+{
+  "current": {
+    "type_base_size": "16px",
+    "color_primary": "#000",
+    "color_body_text": "#000",
+    "social_sharing_blog": true,
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "social_twitter_link": "",
+    "social_facebook_link": "",
+    "social_pinterest_link": "",
+    "social_instagram_link": "",
+    "social_snapchat_link": "",
+    "social_tumblr_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "cart_notes_enable": false,
+    "favicon": "shopify:\/\/shop_images\/ast_logo.png",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/ast_logo.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "large",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#000000",
+    "checkout_heading_font": "Roboto",
+    "checkout_body_font": "Roboto",
+    "checkout_accent_color": "#d71f24",
+    "checkout_button_color": "#d71f24",
+    "checkout_error_color": "#ff6d6d",
+    "sections": {
+      "collection-list": {
+        "type": "collection-list",
+        "blocks": {
+          "collection-list-0": {
+            "type": "collection",
+            "settings": {
+              "collection": ""
+            }
+          },
+          "collection-list-1": {
+            "type": "collection",
+            "settings": {
+              "collection": ""
+            }
+          },
+          "collection-list-2": {
+            "type": "collection",
+            "settings": {
+              "collection": ""
+            }
+          }
+        },
+        "block_order": [
+          "collection-list-0",
+          "collection-list-1",
+          "collection-list-2"
+        ],
+        "settings": {
+          "title": "Collection list"
+        }
+      },
+      "featured-collection": {
+        "type": "featured-collection",
+        "settings": {
+          "title": "Featured collection",
+          "collection": "frontpage"
+        }
+      },
+      "featured-product": {
+        "type": "featured-product",
+        "settings": {
+          "product": "",
+          "show_share_buttons": false
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "1517216714144": {
+            "type": "select",
+            "settings": {
+              "title": "Flat Rate Shipping",
+              "description": "$7 Australia Wide",
+              "icon": "shopify:\/\/shop_images\/003-box.png"
+            }
+          },
+          "1517216817860": {
+            "type": "select",
+            "settings": {
+              "title": "Call Us",
+              "description": "1300 360 041",
+              "icon": "shopify:\/\/shop_images\/001-phone-call.png"
+            }
+          },
+          "1517216843777": {
+            "type": "select",
+            "settings": {
+              "title": "Email Us",
+              "description": "sales@astaustralia.com",
+              "icon": "shopify:\/\/shop_images\/002-mail.png"
+            }
+          }
+        },
+        "block_order": [
+          "1517216714144",
+          "1517216817860",
+          "1517216843777"
+        ],
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/ast_logo.png",
+          "logo_max_width": 300,
+          "main_linklist": "main-menu"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "1517271154157": {
+            "type": "select",
+            "settings": {
+              "text_title": "Contact Us",
+              "text_block": "phone\nemail\netc"
+            }
+          },
+          "1517271158922": {
+            "type": "select",
+            "settings": {
+              "text_title": "Our Mission",
+              "text_block": "AST Sports Science is committed to the continued advancement of scientifically based sports nutrition supplements. We are dedicated to scientifically and medically supported research as a backbone to supporting nutritional advancement designed to enhance athletic performance, metabolic function and promote optimum health and well being."
+            }
+          }
+        },
+        "block_order": [
+          "1517271154157",
+          "1517271158922"
+        ],
+        "settings": {
+          "footer_linklist": "footer"
+        }
+      },
+      "product": {
+        "type": "product",
+        "settings": {
+          "show_share_buttons": false
+        }
+      }
+    },
+    "content_for_index": [
+      "collection-list",
+      "featured-collection",
+      "featured-product"
+    ]
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-list-0": {
+              "type": "collection",
+              "settings": {}
+            },
+            "collection-list-1": {
+              "type": "collection",
+              "settings": {}
+            },
+            "collection-list-2": {
+              "type": "collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "collection-list-0",
+            "collection-list-1",
+            "collection-list-2"
+          ],
+          "settings": {}
+        },
+        "featured-collection": {
+          "type": "featured-collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "collection-list",
+        "featured-collection",
+        "featured-product"
+      ]
+    }
+  }
+}
